@@ -1,0 +1,94 @@
+
+
+s=[1,"m",3,4,"s",6,7,"a",9]
+
+p=[2,6,14,[["c"],4],"dog",86]
+
+def ters (x):
+    print(x)
+    return x.reverse()
+    print(x)
+    
+"""
+Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. 
+Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün.
+"""
+
+ters(s) 
+
+
+ters(p)
+
+
+-----------------------
+
+sıra = []
+def flatten(x):
+    for i in x:
+        if isinstance(i, list):
+            flatten(i)
+        else:
+            sıra.append(i)
+
+l = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+
+s=[1,"m",3,4,"s",6,7,"a",9]
+
+p=[2,6,14,[["c"],4],"dog",86]
+
+flatten(s)
+print(s)
+
+flatten(l)
+print(l)
+
+flatten(p)
+print(p)
+
+
+
+s=[1,"m",3,4,"s",6,7,"a",9]
+
+p=[2,6,14,[["c"],4],"dog",86]
+
+def ters (x):
+    print(x)
+    return x.reverse()
+    print(x)
+    
+"""
+Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. 
+Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün.
+"""
+
+ters(s) 
+
+
+ters(p)
+
+
+-----------------------
+
+sıra = []
+def flatten(x):
+    for i in x:
+        if isinstance(i, list):
+            flatten(i)
+        else:
+            sıra.append(i)
+
+l = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+
+s=[1,"m",3,4,"s",6,7,"a",9]
+
+p=[2,6,14,[["c"],4],"dog",86]
+
+flatten(s)
+print(s)
+
+flatten(l)
+print(l)
+
+flatten(p)
+print(p)
+
